@@ -1,0 +1,152 @@
+.webwear-querycompletion{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  text-align: left;
+}
+.webwear-querycompletion-selected{
+	background-color: #00FFFF;
+	text-align: left;
+}
+
+.webwear-search{
+  font-weight: bold;
+  text-align: left;
+}
+.webwear-searcher {
+  font-style: italic;
+  text-align: left;
+}
+
+.webwear-searchdate {
+  font-style: italic;
+  text-align: left;
+}
+.webwear-querycompletion:hover {
+  cursor: pointer;
+  text-align: left;
+}
+.webwear-selected{
+  border: 1px solid black;
+  text-align: left;
+}
+
+.webwear-not-selected{
+  border: 1px solid gray;
+  text-align: left;
+}
+.webwear-portrait{
+  float: left;
+  width: 30px;
+  font-size: 6pt;
+  text-align: center;
+}
+.webwear-small-details{
+	font-size: 10pt;
+}
+.webwear-smaller-details{
+	font-size: 8pt;
+}
+.webwear-history-domain-visit{
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+/*
+.webwear-user-activity-detail{
+  margin-left: 10px;
+  position: relative;
+}
+*/
+.webwear-user-activity-container{
+  min-height: 50px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.webwear-user-activity-detail-container{
+  display: none;
+  margin-left: 40px;
+  font-size: 7pt;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.webwear-popup-title{
+  font-weight: bold;
+  font-size: 10pt;
+  margin: 10px 0px 10px 0px;
+  padding-bottom: 5px;
+  text-align: left;
+  min-height: 25px;
+  border-bottom: thin #ccc solid;
+  position: relative;
+  background-color: white;
+}
+
+#webwear-page-screen{
+  font-weight: bold;
+  font-size: 20pt;
+  font-family: arial, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  color: #AAA;
+}
+.webwear-sparkline-container{
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+  font-size: 7pt;
+  font-weight: normal;
+  margin-left: 10px;
+  
+  vertical-align:bottom;
+  text-align: left;
+}
+.webwear-dialog-expand-link{
+  border: 0;
+  color: blue;
+  text-decoration: underline;
+  text-align: left;
+}
+.webwear-link-annotation-details{
+  font-size: 10pt;
+}
+
+
+.webwear-page-annotation-details{
+  width: 95%;
+  text-align: left;
+}
+
+#webwear-activity-container strong{
+  font-family: arial;
+  color: black;
+  text-align: left;
+}
+
+#webwear-activity-container, .webwear-dialog{
+  font-size: 8pt;
+  font-family: arial;
+  color: black;
+  text-align: left;
+}
+
+#webwear-activity-container a, .webwear-dialog a {
+	color: blue;
+	text-decoration: none;
+}
+
+#webwear-activity-container a:hover, .webwear-dialog a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+#webwear-activity-container a:visited, .webwear-dialog a:visited{
+	color: #581C90;
+	text-decoration: none;
+}
+
+#webwear-activity-container em, .webwear-dialog em{
+	font-weight: normal;
+	font-style: italic;
+}

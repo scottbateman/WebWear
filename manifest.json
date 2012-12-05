@@ -1,0 +1,47 @@
+{
+  "name": "WebWear",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "A social navigation system for small tightly-knit groups.",
+  "permissions": [
+    "tabs","http://*/*","https://*/*","background","notifications","idle"
+  ],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+	"default_popup": "popup.html"
+  },
+  "background": {
+	"page":"background.html"
+  },
+  "content_scripts":[
+    { 
+		"matches":["http://*/*", "https://www.google.com/*", "https://www.google.ca/*"],
+		"css":[
+			"css/webwear.css",
+			"css/custom-theme/jquery-ui-1.8.18.custom.css"
+		],
+		"js":[
+			"webwear-setup.js",
+			"scripts/linq/linq.js",
+			"scripts/jquery-1.7.js",
+			"scripts/linq/jquery.linq.js",
+			"scripts/jquery-ui.min.js",
+			"scripts/jquery.timeago.js",
+			"scripts/jquery.sparkline.min.js",
+			"scripts/jquery.json-2.3.min.js",
+			"scripts/jstorage.js",
+			"webwear-plugins.js",
+			"webwear-util.js",
+			"webwear-collection.js",
+			"webwear.js"
+		], 
+		
+		"run_at":"document_start"
+    }
+  ],
+  "web_accessible_resources": [
+	"images/you.jpg"
+  ]
+
+}
+

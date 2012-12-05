@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>WebWear Controls Popup</title>
+		<script src="scripts/jquery-1.7.js"></script>
+		<script src="webwear-setup.js"></script>
+		<script src="webwear-util.js"></script>
+		<script src="webwear-popup.js"></script>
+		<style>
+			 body {
+				min-width:380px;
+				background-color: white;
+				font-family: arial, sans-serif;
+				font-size: 11pt;
+			 }
+			 
+			 h1{
+				font-size: 14pt;
+				margin: 0;
+				padding: 0;
+			 }
+			 h2{
+				font-size: 13pt;
+				margin: 15px 0 10px 0;
+				padding: 0;
+				background-color: #ccc;
+			 }
+			 h3{
+				font-size: 10pt;
+				margin: 5px 0 10px 0;
+				padding: 0;
+			 }
+			 smaller{
+				font-size: 9pt;
+			 }
+			 .webwear-filter-user-img{
+				width: 50px;
+				margin: 0 auto;
+			 }	
+			 .webwear-filter-user{
+				max-width: 60px;
+				padding: 5px;
+				text-align: center;
+				cursor: pointer;
+				display: inline-block;
+				margin: 5px;
+			 }
+			 .webwear-people-filter{
+				padding: 5px;
+			 }
+			 .webwear-people-selected{
+				border: 3px solid blue;
+			 }
+			 .webwear-people-not-selected{
+				border: 3px solid white;
+			 }
+			 #weartype{
+				margin-left: 10px;
+			 }
+			 
+		</style>
+		
+			
+	</head>
+	<body >
+		
+			<h1>WebWear Controls</h1>
+			<h2>Filters</h2>
+			<div id="webwear-people-filter">
+			<h3>View wear for the selected people only (blue):</h3>
+			</div>
+			
+			
+			<h2>Settings</h2>
+			
+			<div id="settings">
+				<input type="button" id="history" value="View and Edit My History" />
+				<br /><hr />
+				<input type="checkbox" id="tracking-on" name="tracking-on" value="true" /> Leave wear? <smaller><em>(uncheck to turn off tracking)</em></smaller>
+				<br />
+				
+				<input type="checkbox" id="seewear" value="true" /> See wear? <smaller><em>(uncheck to hide WebWear) </em></smaller>
+				<br />
+				
+				<!--
+				<hr />
+				Wear User? <input type="text" id="username" /> 
+				<input type="button" id="set-username" value="set username" />
+				<br /><smaller><em>(the username to be tracked) </em></smaller>
+				<br /><hr />
+				Wear Collection? <input type="text" id="collection" /> 
+				<input type="button" id="set-collection" value="set collection" />
+				<br /><smaller><em>(don't muck with this) </em></smaller>
+				-->
+			</div>
+		
+	</body>
+</html>
